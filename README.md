@@ -12,6 +12,16 @@ bun run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+### Vercel deploy
+
+Set **Root Directory** to `typescript` in Vercel project settings.
+
+The app serves pre-generated data from `typescript/src/generated/dashboard.json` (~30 KB) — hackathon CSVs are **not** bundled. After changing ETL logic locally:
+
+```bash
+cd typescript && bun run export-data
+```
+
 ## Generate CSV/MD output
 
 ```bash

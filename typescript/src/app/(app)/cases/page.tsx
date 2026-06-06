@@ -1,7 +1,7 @@
 import { Badge } from '@/components/badge'
 import { Heading, Subheading } from '@/components/heading'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/table'
-import { getDashboardData } from '@/lib/analytics'
+import { getDashboardData } from '@/lib/get-dashboard-data'
 
 export default async function CasesPage() {
   const { caseStudies, killerCases } = getDashboardData()

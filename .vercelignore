@@ -1,0 +1,12 @@
+# Vercel: exclude hackathon bulk data — app uses src/generated/dashboard.json
+Luotea-Hackathon-2026/
+ai/
+analysis/
+output/
+requirements.txt
+
+# Local build artifacts
+typescript/node_modules/
+typescript/.next/
+**/.venv/
+**/__pycache__/

@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "cd typescript && npm install && npm run build",
+  "devCommand": "cd typescript && npm run dev",
+  "installCommand": "cd typescript && npm install",
+  "outputDirectory": "typescript/.next",
+  "framework": "nextjs"
+}

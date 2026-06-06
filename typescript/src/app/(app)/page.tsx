@@ -3,7 +3,7 @@ import { Heading, Subheading } from '@/components/heading'
 import { StatCard } from '@/components/stat-card'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/table'
 import { TextLink } from '@/components/text'
-import { getDashboardData } from '@/lib/analytics'
+import { getDashboardData } from '@/lib/get-dashboard-data'
 import { formatDaysUntil, recommendationBadgeColor } from '@/lib/action-utils'
 
 export default async function Home() {

@@ -1,6 +1,6 @@
 import { Heading, Subheading } from '@/components/heading'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/table'
-import { getDashboardData } from '@/lib/analytics'
+import { getDashboardData } from '@/lib/get-dashboard-data'
 import { recommendationBadgeColor } from '@/lib/action-utils'
 import { Badge } from '@/components/badge'
 

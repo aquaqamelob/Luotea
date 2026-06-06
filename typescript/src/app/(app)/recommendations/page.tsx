@@ -1,7 +1,7 @@
 import { Badge } from '@/components/badge'
 import { Heading } from '@/components/heading'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/table'
-import { getDashboardData } from '@/lib/analytics'
+import { getDashboardData } from '@/lib/get-dashboard-data'
 import { formatDaysUntil, recommendationBadgeColor } from '@/lib/action-utils'
 
 export default async function RecommendationsPage() {
