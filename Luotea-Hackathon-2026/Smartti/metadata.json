@@ -1,0 +1,70 @@
+{
+  "version": "1.0",
+  "exported_at": "2026-05-26T09:32:54.112100Z",
+  "source": "Smartti Pulse (pulsedb)",
+  "customer": {
+    "id": "customer_x1pc2sd1hnjttz8qaeskxtvj",
+    "name": "NovaProp",
+    "region_code": "FI",
+    "currency": "EUR",
+    "timezone": "Europe/Helsinki",
+    "default_pricing": {
+      "electricity_eur_per_MWh": 100.0,
+      "district_heating_eur_per_MWh": 80.0,
+      "district_cooling_eur_per_MWh": 45.0,
+      "water_eur_per_m3": 4.0
+    }
+  },
+  "properties": [
+    {
+      "file": "aurora_house.json",
+      "name": "Aurora House",
+      "size_mb": 28.0,
+      "nodes": 48,
+      "readings_total": 179216,
+      "metrics": [
+        "district_heating_MWh",
+        "electricity_kWh",
+        "interior_co2_ppm",
+        "interior_temperature_C",
+        "interior_temperature_target_C",
+        "interior_temperature_tolerance_C",
+        "water_m3"
+      ],
+      "incidents": 90
+    },
+    {
+      "file": "meridian_tower.json",
+      "name": "Meridian Tower",
+      "size_mb": 72.4,
+      "nodes": 48,
+      "readings_total": 422983,
+      "metrics": [
+        "interior_co2_ppm",
+        "interior_temperature_C",
+        "interior_temperature_target_C",
+        "interior_temperature_tolerance_C"
+      ],
+      "incidents": 231,
+      "children": 3
+    },
+    {
+      "file": "horizon_plaza.json",
+      "name": "Horizon Plaza",
+      "size_mb": 29.0,
+      "nodes": 50,
+      "readings_total": 190307,
+      "metrics": [
+        "district_cooling_MWh",
+        "district_heating_MWh",
+        "electricity_kWh",
+        "interior_co2_ppm",
+        "interior_temperature_C",
+        "interior_temperature_target_C",
+        "interior_temperature_tolerance_C",
+        "water_m3"
+      ],
+      "incidents": 153
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "entity_id": "54960238",
+    "entity_label": "[NAME] on kylm\u00e4 [NAME] M100 modulissa. Nyt jopa viel\u00e4 kylmem",
+    "risk_score": "65",
+    "summary": "Review this week \u2014 [NAME] on kylm\u00e4 [NAME] M100 modulissa. Nyt jopa viel\u00e4 kylmem @ Lentokent\u00e4nkatu 11. Risk 65/100 (medium). 66 alarms in the last 7 days \u2014 signals ignored by the calendar. Engine action: SEND TECHNICIAN NOW.",
+    "source": "template"
+  },
+  {
+    "entity_id": "54882174",
+    "entity_label": "L\u00e4hett\u00e4m\u00f6n sis\u00e4tila. L\u00e4hett\u00e4m\u00f6n ilmal\u00e4mp\u00f6pumpun vedenpoistol",
+    "risk_score": "65",
+    "summary": "Review this week \u2014 L\u00e4hett\u00e4m\u00f6n sis\u00e4tila. L\u00e4hett\u00e4m\u00f6n ilmal\u00e4mp\u00f6pumpun vedenpoistol @ Venttiilitehdas. Risk 65/100 (medium). 13 alarms in the last 7 days \u2014 signals ignored by the calendar. Engine action: SEND TECHNICIAN NOW.",
+    "source": "template"
+  },
+  {
+    "entity_id": "54716854",
+    "entity_label": "FIMX 10487119: L\u00e4hett\u00e4m\u00f6n toimiston ilmastointilaite vuotaa ",
+    "risk_score": "65",
+    "summary": "Review this week \u2014 FIMX 10487119: L\u00e4hett\u00e4m\u00f6n toimiston ilmastointilaite vuotaa  @ Venttiilitehdas. Risk 65/100 (medium). 6 alarms in the last 7 days \u2014 signals ignored by the calendar. Engine action: SEND TECHNICIAN NOW.",
+    "source": "template"
+  },
+  {
+    "entity_id": "PM-462824",
+    "entity_label": "M\u00e4\u00e4r\u00e4aikaishuollot, LV (Venttiilitehdas)",
+    "risk_score": "15",
+    "summary": "Monitor \u2014 M\u00e4\u00e4r\u00e4aikaishuollot, LV (Venttiilitehdas) @ Venttiilitehdas. Risk 15/100 (low). No recent alarms. Engine action: AUDIT PM PLAN.",
+    "source": "template"
+  },
+  {
+    "entity_id": "PM-462825",
+    "entity_label": "M\u00e4\u00e4r\u00e4aikaishuollot, IV, kev\u00e4t (Venttiilitehdas)",
+    "risk_score": "15",
+    "summary": "Monitor \u2014 M\u00e4\u00e4r\u00e4aikaishuollot, IV, kev\u00e4t (Venttiilitehdas) @ Venttiilitehdas. Risk 15/100 (low). No recent alarms. Inspection due in -25 day(s) \u2014 calendar says go, signals say check first. Engine action: AUDIT PM PLAN.",
+    "source": "template"
+  },
+  {
+    "entity_id": "PM-462826",
+    "entity_label": "Turvavalaistusj\u00e4rjestelm\u00e4n vuosihuolto (Venttiilitehdas)",
+    "risk_score": "15",
+    "summary": "Monitor \u2014 Turvavalaistusj\u00e4rjestelm\u00e4n vuosihuolto (Venttiilitehdas) @ Venttiilitehdas. Risk 15/100 (low). No recent alarms. Engine action: AUDIT PM PLAN.",
+    "source": "template"
+  },
+  {
+    "entity_id": "PM-462828",
+    "entity_label": "Pikapalopostin koeponnistus (Venttiilitehdas)",
+    "risk_score": "15",
+    "summary": "Monitor \u2014 Pikapalopostin koeponnistus (Venttiilitehdas) @ Venttiilitehdas. Risk 15/100 (low). No recent alarms. Engine action: AUDIT PM PLAN.",
+    "source": "template"
+  },
+  {
+    "entity_id": "PM-462829",
+    "entity_label": "Pikapalopostin tarkastus (Venttiilitehdas)",
+    "risk_score": "15",
+    "summary": "Monitor \u2014 Pikapalopostin tarkastus (Venttiilitehdas) @ Venttiilitehdas. Risk 15/100 (low). No recent alarms. Engine action: AUDIT PM PLAN.",
+    "source": "template"
+  },
+  {
+    "entity_id": "PM-462830",
+    "entity_label": "Savunpoistoj\u00e4rjestelm\u00e4n vuosihuolto (Venttiilitehdas)",
+    "risk_score": "15",
+    "summary": "Monitor \u2014 Savunpoistoj\u00e4rjestelm\u00e4n vuosihuolto (Venttiilitehdas) @ Venttiilitehdas. Risk 15/100 (low). No recent alarms. Inspection due in -15 day(s) \u2014 calendar says go, signals say check first. Engine action: AUDIT PM PLAN.",
+    "source": "template"
+  },
+  {
+    "entity_id": "PM-462831",
+    "entity_label": "K\u00e4sisammuttimen tarkastus (Venttiilitehdas)",
+    "risk_score": "15",
+    "summary": "Monitor \u2014 K\u00e4sisammuttimen tarkastus (Venttiilitehdas) @ Venttiilitehdas. Risk 15/100 (low). No recent alarms. Engine action: AUDIT PM PLAN.",
+    "source": "template"
+  }
+]

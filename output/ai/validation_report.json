@@ -1,0 +1,17 @@
+{
+  "reactive_repairs_analyzed": 691,
+  "reactive_with_5plus_alarms": 171,
+  "pct_reactive_with_5plus_alarms": 24.7,
+  "mean_alarms_before_reactive": 4.24,
+  "mean_alarms_before_eh_visit": 4.44,
+  "alarm_lift_ratio": 0.96,
+  "pearson_alarms_vs_binary_failure": 0.613,
+  "send_now_rule_precision_pct": 100.0,
+  "send_now_rule_recall_pct": 24.7,
+  "logistic_regression_auc": 0.794,
+  "logistic_coefficients": {
+    "alarms_7d": 2.615,
+    "alarms_30d": -1.24,
+    "trend": 3.189
+  }
+}

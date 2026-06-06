@@ -1,0 +1,105 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Nunito Sans', ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand-teal: #87a5a5;
+  --color-brand-teal-dark: #0f4b4b;
+  --color-brand-teal-mid: #3f6f6f;
+  --color-brand-border: #87a5a5;
+  --color-brand-pink: #f0a8c4;
+  --color-brand-pink-dark: #e879a9;
+  --color-brand-surface: #0c1818;
+  --color-brand-card: #122424;
+  --color-brand-muted: #9cb8b8;
+  --color-brand-text: #eef6f6;
+}
+
+:root {
+  --media-underlay-color: #3f6f6f;
+  --selection-bg: #0f4b4b;
+  --color-border: #87a5a5;
+  --scrollbar-bg: #1a2e2e;
+  --scrollbar-color: #3f6f6f;
+  --color-pink: #e879a9;
+  --color-pink-soft: #3d2430;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color-scheme: dark;
+  }
+
+  body {
+    color: var(--color-brand-text);
+    background-color: var(--color-brand-surface);
+  }
+
+  ::selection {
+    background: var(--selection-bg);
+    color: #fff;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg);
+  }
+
+  *::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: var(--scrollbar-bg);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-color);
+    border-radius: 9999px;
+    border: 2px solid var(--scrollbar-bg);
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background: var(--color-brand-border);
+  }
+}
+
+@layer components {
+  .app-shell-bg {
+    background-color: var(--color-brand-surface);
+  }
+
+  .app-card {
+    background: var(--color-brand-card);
+    border: 1px solid color-mix(in srgb, var(--color-border) 35%, transparent);
+    box-shadow:
+      0 1px 0 color-mix(in srgb, var(--color-border) 15%, transparent),
+      0 12px 40px -16px rgba(0, 0, 0, 0.65),
+      0 0 0 1px color-mix(in srgb, var(--color-pink) 8%, transparent);
+  }
+
+  .app-sidebar {
+    background: var(--color-brand-teal-dark);
+    border-right: 1px solid color-mix(in srgb, var(--color-border) 30%, transparent);
+  }
+
+  .link-brand {
+    color: var(--color-brand-pink);
+    transition: color 0.15s;
+  }
+
+  .link-brand:hover {
+    color: #fff;
+  }
+
+  .accent-bar {
+    border-left: 4px solid var(--color-brand-pink);
+  }
+
+  .panel-highlight {
+    background: color-mix(in srgb, var(--color-brand-teal-dark) 70%, var(--color-brand-card));
+    border: 1px solid color-mix(in srgb, var(--color-border) 30%, transparent);
+  }
+}

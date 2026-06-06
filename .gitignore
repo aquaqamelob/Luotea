@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.env.*
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node (typescript/.gitignore covers most; belt-and-suspenders)
+**/node_modules/

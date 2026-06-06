@@ -1,0 +1,6 @@
+WO_NO,site,started,hours,cost_eur,work_type,description,alarms_7d_unique,alarms_7d_rows,first_alarm,days_alarm_to_failure,prior_eh_14d,last_prior_eh,days_to_next_eh
+54312975,"Lentokentänkatu 11",2025-04-16,96.63,7730,"Repairs and maintenance electrical","[NAME] IQLabra;D; D; -Pöytiin kourunpätkät + 3kpl 2-os pistorasiat ja 4x RJ45D; -Pöytien maadoituksetD; D; Tilaan tavara",12,30,2025-04-13,3,6,2025-04-15,1
+55605094,"Venttiilitehdas",2026-03-31,74.78,5982,"Repairs and maintenance electrical","Sähköhuollon puutekorjaukset puutelistauksen mukaisesti. Puutelistaus toimitetaan sähköpostilla. Työaika-arvio 100 h.",2,189,2026-03-25,6,14,2026-03-31,1
+54126007,"Venttiilitehdas",2025-03-04,65.22,5218,"Repairs and maintenance electrical","Wurthin kaapien sähköistys   Viite:  Harvo",1,36,2025-02-27,5,12,2025-03-04,0
+54345674,"Venttiilitehdas",2025-04-30,64.7,5176,"Repairs and maintenance electrical","",3,36,2025-04-24,6,10,2025-04-30,2
+55115156,"Venttiilitehdas",2025-11-12,59.65,4772,"Repairs and maintenance electrical","Tilausnumero: KIHI_20251028A  [NAME].    Tilaaja: [NAME]",3,9,2025-11-10,2,10,2025-11-12,1

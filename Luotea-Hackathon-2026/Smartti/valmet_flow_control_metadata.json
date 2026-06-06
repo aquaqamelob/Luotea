@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "exported_at": "2026-06-04T12:34:45.401967+00:00",
+  "source": "Smartti Pulse (pulsedb)",
+  "customer": {
+    "id": "customer_tgqcy0qfac6gou4wtzlthtxd",
+    "name": "Valmet",
+    "region_code": "FI",
+    "currency": "EUR",
+    "timezone": "Europe/Helsinki",
+    "default_pricing": {
+      "electricity_eur_per_MWh": null,
+      "district_heating_eur_per_MWh": null,
+      "district_cooling_eur_per_MWh": null,
+      "water_eur_per_m3": null
+    }
+  },
+  "properties": [
+    {
+      "file": "valmet_flow_control.json",
+      "name": "Valmet Flow Control",
+      "size_mb": 30.9,
+      "nodes": 29,
+      "readings_total": 185787,
+      "metrics": [
+        "district_heating_MWh",
+        "electricity_kWh",
+        "interior_co2_ppm",
+        "interior_temperature_C",
+        "interior_temperature_target_C",
+        "interior_temperature_tolerance_C",
+        "water_m3"
+      ],
+      "incidents": 56
+    }
+  ]
+}
